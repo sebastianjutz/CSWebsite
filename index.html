@@ -1,14 +1,31 @@
-﻿
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <title> Kennesaw State University </title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="mystyles.css">
-<meta name="robots" content="noindex, no follow, noarchive" />
-<meta name="author" content="Sebastian and Elijah" />
+<meta name="robots" content="noindex, no follow, noarchive"/>
+<meta name="author" content="Sebastian and Elijah"/>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 </head>
 <body>
+
 <div id="wrapper">
 <header>
 
@@ -16,16 +33,14 @@
 
 <p align="center"> <br>
 <img src="images/ksu-logo2.png" alt="KSU" width="473">
-  <h1>College of Computing and Software Engineering 
-    </h1>
+  <h1>College of Computing and Software Engineering</h1>
 </header>
 <nav>
 
 
 <ul>
-  <li><a href="PageOne.html">Meet The Team</a></li><br>
+  <li><a href="PageOne.html">Information on Project</a></li><br>
   
-  <!-- <li><a href = "mailto: abc@example.com">Email me.</a></li><br>  -->
   <br><p>
    
 </ul>  
@@ -33,8 +48,19 @@
 </nav>
 <main>   
 <h2>Team Rockets</h2>
-<p><span class="resort">We are working on an Industry Project with InComm / GoStudios</p>
-We are working under an NDA so there will not be any project info listed here<p>
+<h3>INC-1, Go Studio Capstone Fall 2023</h3>
+<div class="column">
+  <div class="column">
+    <img src="images/sebastian.jpg" alt="Sebastian Utz" width="130">
+    <h2>Sebastian Utz</h2>
+  </div>
+  <div class="column">
+    <img src="images/elijah.jpg" alt="Elijah Williams" width="110">
+    <h2>Elijah Williams</h2>
+  </div>
+</div>
+
+
   <div class="clear">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
         
